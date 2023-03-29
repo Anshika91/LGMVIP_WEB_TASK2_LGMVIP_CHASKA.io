@@ -1,0 +1,73 @@
+body {
+  display: block;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+.container {
+  position: relative;
+  height: 600px;
+  left: 0px;
+}
+
+.header {
+  height: 140px;
+  width: 100%;
+  background-image: url("user.jpg");
+  background-size: 300px;
+  background-repeat: no-repeat;
+  border-bottom: 2px solid #494c4b;
+  padding-top: 55px;
+  font-size: 100px;
+  color: rgb(97, 95, 100);
+}
+
+.btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+button {
+  color: rgb(158, 155, 155);
+  height: 35px;
+  width: 100px;
+  background-image: linear-gradient(black, rgb(76, 74, 74));
+  border-radius: 5px;
+}
+
+#data {
+  width: 99%;
+  height: 450px;
+  text-align: right;
+  justify-content: center;
+  display: flex;
+}
+
+.table {
+  width: 800px;
+}
+
+table {
+  color: rgb(105, 102, 102);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font: 700;
+}
+
+table tr :hover {
+  background-color: rgb(55, 53, 53);
+}
+
+img {
+  clip-path: circle();
+}
+
+.welcome {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(181, 178, 182);
+  padding-top: 120px;
+}
